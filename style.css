@@ -1,0 +1,196 @@
+/* =====================
+   General Styles
+===================== */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f6f2;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+/* =====================
+   Header & Navigation
+===================== */
+header {
+  background-color: #ffe4c4;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+  color: #444444;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #444444;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #c76a3d;
+}
+
+/* =====================
+   Intro Section
+===================== */
+.intro {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.btn {
+  background-color: #ffb347;
+  color: #ffffff;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #ff9447;
+}
+
+/* =====================
+   About Box
+===================== */
+.about-box {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 25px;
+  background-color: #fff8f0;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.about-box h2 {
+  margin-bottom: 15px;
+  color: #444444;
+}
+
+/* =====================
+   Gallery Section
+===================== */
+.gallery {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.gallery h2 {
+  margin-bottom: 20px;
+  color: #444444;
+}
+
+.gallery .images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* space between images */
+}
+
+.gallery .images img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.gallery .images img:hover {
+  transform: scale(1.05);
+}
+
+/* =====================
+   Event Details Section
+===================== */
+.details {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #fff8f0;
+  margin-top: 40px;
+  border-radius: 12px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.details h2, .details h3 {
+  color: #444444;
+}
+
+/* =====================
+   Form Styles
+===================== */
+form {
+  max-width: 450px;
+  margin: 40px auto;
+  background-color: #fff8f0;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin: 12px 0 6px;
+  font-weight: bold;
+}
+
+input,
+select,
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #cccccc;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+input[type="radio"] {
+  width: auto;
+  margin-right: 8px;
+}
+
+button {
+  background-color: #ffb347;
+  color: #ffffff;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #ff9447;
+}
+
+#msg {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* =====================
+   Footer
+===================== */
+footer {
+  text-align: center;
+  background-color: #ffe4c4;
+  padding: 10px;
+  margin-top: 50px;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Motta Madi Music - Registration</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Register for Motta Madi Music 🎵</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="register.html">Register</a>
+    </nav>
+  </header>
+
+  <main>
+    <form id="registrationForm">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" required>
+
+      <label for="phone">Phone Number:</label>
+      <input type="text" id="phone" required placeholder="10-digit number">
+
+      <label>Gender:</label>
+      <input type="radio" name="gender" value="Male" required> Male
+      <input type="radio" name="gender" value="Female"> Female
+      <input type="radio" name="gender" value="Other"> Other
+
+      <label>Ticket Type:</label>
+      <input type="radio" name="ticket" value="Regular" required> Regular - ₹500
+      <input type="radio" name="ticket" value="VIP"> VIP - ₹1000
+
+      <label for="tickets">Number of Tickets:</label>
+      <input type="number" id="tickets" min="1" max="5" required>
+
+      <label for="payment">Payment Method:</label>
+      <select id="payment" required>
+        <option value="">--Select--</option>
+        <option value="upi">UPI</option>
+        <option value="card">Credit/Debit Card</option>
+        <option value="netbanking">Net Banking</option>
+      </select>
+
+      <button type="submit">Submit & Pay</button>
+    </form>
+    <p id="msg"></p>
+  </main>
+
+  <footer>
+    <p>© 2025 Motta Madi Music. All rights reserved.</p>
+  </footer>
+</body>
+</html>
